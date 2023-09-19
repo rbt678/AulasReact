@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.App-gato {
+  max-height: 150pt;
+  max-width: 150pt;
+  border: #61dafb 2px solid;
+}
+.Valor-Normal {
+  font-size: 1em;
+  font-weight: bold;
+  color: #61dafb;
+}
+.Valor-Soma {
+  font-size: 2em;
+  font-weight: bold;
+  color: #61dafb;
+}
+
+.Positivo {
+  color: #61fb87;
+  border: #61fb87 2px solid;
+}
+
+.Negativo {
+  border: #fb6161 2px solid;
+  color: #fb6161;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
