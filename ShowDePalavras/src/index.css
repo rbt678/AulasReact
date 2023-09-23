@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, rgb(41, 32, 23) 0%, rgba(255, 153, 0, 0.973) 50%, rgb(41, 32, 23) 100%);
+}
+
+
+button {
+  border-radius: 25px;
+  border: 2px solid;
+  color: #ffffff;
+  height: 50px;
+  padding: 0 45px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: #552200;
+  cursor: pointer;
+  transition: 0.25s;
+}
+button:hover {
+  background: #6d4429;
+  border-color: #ffc164;
+  color: #ffc164;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
