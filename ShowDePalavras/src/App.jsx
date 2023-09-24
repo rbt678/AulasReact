@@ -6,6 +6,8 @@ import FimJogo from './components/FimJogo'
 
 
 function App() {
+  console.log('App iniciou!')
+
   const stages = [
     {id: 0, name: 'initial'},
     {id: 1, name: 'game'},
