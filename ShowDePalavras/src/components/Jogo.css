@@ -23,6 +23,7 @@
     font-size: 15px;
     background-color: black;
     color: #ffff;
+
 }
 
 .Categoria {
@@ -39,4 +40,24 @@
     text-align: center;
     margin-right: 1em;
     text-transform: uppercase;
+}
+
+.Parabens {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 3px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 2; 
+    
+}
+
+#Pontuacao {
+    color: rgb(255, 174, 0);
+    transform: scale(1);
+    transition: transform 0.5s;
 }

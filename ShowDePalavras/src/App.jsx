@@ -2,7 +2,6 @@ import './App.css'
 import { useState } from 'react'
 import TelaInicial from './components/TelaInicial'
 import Jogo from './components/Jogo'
-import FimJogo from './components/FimJogo'
 
 
 function App() {
@@ -11,7 +10,6 @@ function App() {
   const stages = [
     {id: 0, name: 'initial'},
     {id: 1, name: 'game'},
-    {id: 2, name: 'end'},
   ]
 
   const [actualStage, setActualStage] = useState(stages[0].name)
@@ -25,7 +23,6 @@ function App() {
     <div className='App'>
       {actualStage === "initial" && <TelaInicial comecar={comecar}/>}
       {actualStage === "game" && <Jogo />}
-      {actualStage === "end" && <FimJogo />}
     </div>
   )
 }
